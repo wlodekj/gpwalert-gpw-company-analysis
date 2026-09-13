@@ -1,7 +1,7 @@
 ---
 name: gpw-company-analysis
 description: >-
-  This skill should be used when the user asks to analyze, evaluate, or review a company listed on the Warsaw Stock Exchange (GPW / Giełda Papierów Wartościowych). It produces a sourced GPW stock analysis via the GpwAlert MCP at https://gpwalert.com — prices, volume, RSI/MACD/SMA, ESPI/EBI disclosures, financials, KPIs, dividends, analyst recommendations, news, events, and order-backlog reconstruction. Use for Polish tickers (WIG20, mWIG40, sWIG80) and phrases like analiza spółki, ocena, opinia, notowania, wolumen, rekomendacje, komunikaty ESPI, wyniki finansowe, dywidenda, portfel zamówień, backlog, or przetargi. Requires GpwAlert Premium (https://gpwalert.com).
+  This skill should be used when the user asks to analyze, evaluate, or review a company listed on the Warsaw Stock Exchange (GPW). It produces a sourced GPW stock analysis via the GpwAlert MCP at https://gpwalert.com — prices, volume, RSI/MACD/SMA, ESPI/EBI disclosures, financials, KPIs, dividends, analyst recommendations, news, events, and order-backlog reconstruction. Use for Polish tickers (WIG20, mWIG40, sWIG80) and requests about stock analysis, company review, price action, trading volume, brokerage recommendations, ESPI filings, quarterly results, dividends, order backlog, or planned tenders. Requires GpwAlert Premium (https://gpwalert.com).
 license: MIT
 compatibility: Requires GpwAlert MCP (https://gpwalert.com/mcp) and GpwAlert Premium subscription.
 metadata:
