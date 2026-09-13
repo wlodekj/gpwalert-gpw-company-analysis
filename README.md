@@ -61,15 +61,15 @@ On first use, sign in with your **GpwAlert Premium** account. Full setup guide: 
 ## Example prompts
 
 ```
-Zrób pełną analizę spółki CDR
+Run a full analysis of CD Projekt (CDR).
 ```
 
 ```
-Jak oceniasz PKO? Sprawdź notowania, rekomendacje i nadchodzące wydarzenia.
+How do you rate PKO Bank Polski (PKO)? Check prices, recommendations, and upcoming events.
 ```
 
 ```
-Jaki jest portfel zamówień Budimex? Przeanalizuj komunikaty ESPI.
+What is Budimex's order backlog? Analyze ESPI disclosures.
 ```
 
 ```
