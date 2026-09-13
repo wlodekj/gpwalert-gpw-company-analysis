@@ -104,12 +104,12 @@ Compare recent volume and recommendations for KGHM and JSW.
 
 A full analysis typically covers:
 
-1. **Kurs i wolumen** — price move, horizons, RSI/MACD/SMA read, volume anomalies
-2. **Rekomendacje** — latest analyst calls, target vs. current price
-3. **Newsy / komunikaty ESPI** — material disclosures with context
-4. **Nadchodzące wydarzenia** — next report date, dividends, catalysts
-5. **Ocena całościowa** — synthesis, risks, what to watch
-6. **Portfel zamówień** (on request) — reconstructed backlog with explicit caveats
+1. **Price and volume** — price move, horizons, RSI/MACD/SMA read, volume anomalies
+2. **Recommendations** — latest analyst calls, target vs. current price
+3. **News / ESPI disclosures** — material disclosures with context
+4. **Upcoming events** — next report date, dividends, catalysts
+5. **Overall assessment** — synthesis, risks, what to watch
+6. **Order backlog** (on request) — reconstructed backlog with explicit caveats
 
 ---
 

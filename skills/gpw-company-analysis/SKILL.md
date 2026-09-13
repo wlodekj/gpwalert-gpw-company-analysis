@@ -19,10 +19,10 @@ This produces the kind of multi-angle report a serious retail investor or analys
 ## When to use this
 
 Trigger on requests like:
-- "zrób pełną analizę spółki X" / "jak oceniasz to co się dzieje ze spółką X"
-- "sprawdź wolumeny/rekomendacje/wiadomości dla X"
-- "jaki jest obecny portfel zamówień X"
-- "jakie przetargi są zaplanowane dla X" (when the answer feeds back into that company's pipeline)
+- "Run a full analysis of company X" / "How do you assess what's happening with company X?"
+- "Check volume, recommendations, and news for X"
+- "What is company X's current order backlog?"
+- "What tenders are planned for X?" (when the answer feeds back into that company's pipeline)
 - Any question about a specific ticker's fundamentals, technicals, or news that would benefit from combining several data types rather than answering from general knowledge
 
 Don't use this for questions about GPW/the market in general, or for companies not listed on GPW (no GpwAlert coverage) — for those, fall back to plain web search.
@@ -49,7 +49,7 @@ Discover tool schemas before calling tools — do not guess parameter names. If 
 
 ## Core workflow
 
-Run these in roughly this order. Not every report needs every step — scale to what the user actually asked — but a request for a "full/pełna analiza" should touch all of them.
+Run these in roughly this order. Not every report needs every step — scale to what the user actually asked — but a request for a full analysis should touch all of them.
 
 ### 1. Identify the company
 Call `get_company` with the ticker, name, or friendlyUrl the user gave you. This confirms you have the right entity and gives you sector, indices, and basic profile info to anchor the rest of the report.
@@ -95,11 +95,11 @@ When the question extends beyond the company itself — planned tenders from its
 
 Default to plain, conversational prose in the reply (not a file) unless the user asks to save/export it. Use light structure — short section labels, not a formal report template — matching the register of the rest of the conversation. A reasonable shape:
 
-1. **Kurs i wolumen** — recent move, how it compares across horizons, technical read (RSI/MACD/SMA), anything unusual about volume
-2. **Rekomendacje** — latest analyst calls, target vs. current price
-3. **Newsy / komunikaty ESPI** — material disclosures, in date order, each with a one-line read on why it matters
-4. **Nadchodzące wydarzenia** — next report date and why it matters, other scheduled catalysts
-5. **Ocena całościowa** — synthesis: what's driving the recent move, what the risks/catalysts are, what to watch next
+1. **Price and volume** — recent move, how it compares across horizons, technical read (RSI/MACD/SMA), anything unusual about volume
+2. **Recommendations** — latest analyst calls, target vs. current price
+3. **News / ESPI disclosures** — material disclosures, in date order, each with a one-line read on why it matters
+4. **Upcoming events** — next report date and why it matters, other scheduled catalysts
+5. **Overall assessment** — synthesis: what's driving the recent move, what the risks/catalysts are, what to watch next
 6. For backlog/deep-dive requests: a dedicated section with the reconstructed figure, the individual contracts behind it, and the caveat that it's an estimate
 
 ## Non-negotiables
