@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gpwalert": {
+      "type": "http",
+      "url": "https://gpwalert.com/mcp"
+    }
+  }
+}

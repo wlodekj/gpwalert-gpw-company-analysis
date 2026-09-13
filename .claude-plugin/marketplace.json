@@ -1,0 +1,19 @@
+{
+  "name": "gpwalert",
+  "owner": {
+    "name": "GpwAlert",
+    "url": "https://gpwalert.com"
+  },
+  "plugins": [
+    {
+      "name": "gpwalert",
+      "source": "./",
+      "description": "Analyze Warsaw Stock Exchange (GPW) companies with GpwAlert data — prices, ESPI, financials, recommendations, and order backlog.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GpwAlert",
+        "url": "https://gpwalert.com"
+      }
+    }
+  ]
+}
